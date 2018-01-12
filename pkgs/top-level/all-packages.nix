@@ -15219,6 +15219,8 @@ with pkgs;
 
   gitolite = callPackage ../applications/version-management/gitolite { };
 
+  gitter = callPackage ../applications/networking/instant-messengers/gitter { };
+
   inherit (gnome3) gitg;
 
   giv = callPackage ../applications/graphics/giv { };
